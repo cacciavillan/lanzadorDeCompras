@@ -22,6 +22,7 @@ public class GestorDeCompras {
 
             if (!tarjeta.hacerCompra(producto, precio)) {
                 System.out.println("Error: La compra excede el saldo disponible");
+
             }
         }
         mostrarResumenDecompras();
